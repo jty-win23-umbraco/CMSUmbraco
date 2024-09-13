@@ -1,0 +1,33 @@
+.ceo-founder {
+    padding-top: 3rem;
+    padding-bottom: 5rem;
+
+    .container {
+        display: flex;
+        
+        .content {
+            padding: 3rem 0;
+            
+            p{
+                margin-top: 1rem;
+            }
+        }
+
+        .content-info {
+            margin-left: 4rem;
+            padding-top: 3rem;
+
+            blockquote {
+                margin-bottom: 2rem;
+                font-style: italic;
+                font-size: 20px;
+                font-weight: 300;
+            }
+
+            p {
+                margin-top: 1rem;
+                font-size: 14px;
+            }
+        }
+    }
+}

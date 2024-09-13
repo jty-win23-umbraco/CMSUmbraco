@@ -1,0 +1,41 @@
+.trusted-by {
+
+    .container {
+        padding-top: 6rem;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+
+        .our-story {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+
+            h2 {
+                line-height: 0.5;
+            }
+
+            span{
+                font-size: 40px;
+            }
+
+            p {
+                margin-top: 2rem;
+                margin-bottom: 2rem;
+                max-width: 60%;
+            }
+        }
+
+        .img-map {
+            position: absolute;
+            top: 130px;
+            z-index: -1;
+        }
+
+        .img-employees {
+            margin-top: 5rem;
+        }
+    }
+}

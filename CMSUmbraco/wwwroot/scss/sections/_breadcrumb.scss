@@ -1,0 +1,40 @@
+.breadcrumb-menu{
+    position: relative;
+    background-color: var(--color-gray);
+    overflow: hidden;
+
+
+    img{
+        width: 100%;
+        height: auto;
+    }
+
+    .container{
+       
+        .nav{
+            position: absolute;
+            left: 50%;
+            transform: translate(-50%, -100%);
+            max-width: 1320px;
+
+            .breadcrumb{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                text-align: center;
+                margin-bottom: 2rem;
+                padding: 0;
+
+                li{
+                    margin-left: 8px;
+                    margin-right: 8px;
+                    list-style: none;
+                }
+
+                .active{
+                    color: var(--color-secondary);
+                }
+            }
+        }
+    }
+}
